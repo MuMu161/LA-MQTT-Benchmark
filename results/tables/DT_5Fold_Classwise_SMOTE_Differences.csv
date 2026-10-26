@@ -1,0 +1,7 @@
+Class,Precision_Change_SMOTE_minus_Original,Recall_Change_SMOTE_minus_Original,F1_Score_Change_SMOTE_minus_Original
+Brute Force,0.03286,-0.10816,-0.02935
+DoS,0.00092,-0.01875,-0.00896
+Flood,-0.00391,-0.00367,-0.0038
+Legitimate,-0.14191,0.1725,0.06923
+Malformed,0.00257,-0.04096,-0.01902
+SlowITe,-0.0075,-0.01076,-0.00913

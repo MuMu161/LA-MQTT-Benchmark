@@ -1,0 +1,26 @@
+Model,Model_Family,Dataset,Experiment_Type,Weighted_F1,Accuracy_percent,Weighted_F1_percent,Accuracy
+CART,Classical ML,Original,Baseline,0.9877,98.77,98.77,0.9877
+CART,Classical ML,SMOTE,Baseline,0.9794,97.92999999999999,97.94,0.9793
+Random Forest,Classical ML,Original,Baseline,0.9701,97.04,97.00999999999999,0.9704
+Random Forest,Classical ML,SMOTE,Baseline,0.9679,96.78999999999999,96.78999999999999,0.9679
+Bagging,Classical ML,Original,Baseline,0.9887,98.87,98.87,0.9887
+Bagging,Classical ML,SMOTE,Baseline,0.9813,98.11999999999999,98.13,0.9812
+Extra Trees,Classical ML,Original,Baseline,0.9805,98.08,98.05,0.9808
+Extra Trees,Classical ML,SMOTE,Baseline,0.978,97.8,97.8,0.978
+Gradient Boosting,Classical ML,Original,Baseline,0.7119,74.69,71.19,0.7469
+Gradient Boosting,Classical ML,SMOTE,Baseline,0.6192,59.9,61.919999999999995,0.599
+HistGradientBoosting,Classical ML,Original,Baseline,0.9025,91.53,90.25,0.9153
+XGBoost,Classical ML,Original,Baseline,0.8996,91.39,89.96,0.9139
+XGBoost,Classical ML,SMOTE,Baseline,0.9011,90.49000000000001,90.11,0.9049
+LightGBM,Classical ML,Original,Baseline,0.8998,91.38,89.98,0.9138
+LightGBM,Classical ML,SMOTE,Baseline,0.9027,90.62,90.27,0.9062
+CatBoost,Classical ML,Original,Baseline,0.8846,90.35,88.46000000000001,0.9035
+CatBoost,Classical ML,SMOTE,Baseline,0.8789,89.05999999999999,87.89,0.8906
+OvR Random Forest,Classical ML,Original,Baseline,0.9773,97.76,97.72999999999999,0.9776
+OvR Random Forest,Classical ML,SMOTE,Baseline,0.9773,97.72999999999999,97.72999999999999,0.9773
+OvO KNN,Classical ML,Original,Baseline,0.969,96.97,96.89999999999999,0.9697
+OvO KNN,Classical ML,SMOTE,Baseline,0.9617,96.02000000000001,96.17,0.9602
+ANN,Deep Learning,SMOTE,Selected version,0.6397651093592251,64.95933863503616,63.97651093592251,0.6495933863503617
+1D CNN,Deep Learning,SMOTE,Selected version,0.6937299155351013,69.05467942669722,69.37299155351013,0.6905467942669722
+SimpleRNN,Deep Learning,SMOTE,Selected version,0.6195076957227196,63.11272857977266,61.95076957227196,0.6311272857977266
+LSTM,Deep Learning,SMOTE,Selected version,0.6057254882840591,60.942624792200206,60.572548828405914,0.6094262479220021

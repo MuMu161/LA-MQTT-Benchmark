@@ -1,0 +1,28 @@
+Model,Dataset,Accuracy,Precision,Recall,F1,MCC,Balanced_Accuracy,Train_Time_s,Inference_Time_s,Experiment
+CART,Original,0.9877,0.9877,0.9877,0.9877,0.9827,0.9796,2.4677,0.0184,Original baseline
+CART,SMOTE,0.9793,0.9797,0.9793,0.9794,0.9708,0.9715,8.6807,0.0278,Original baseline
+Random Forest,Original,0.9704,0.97,0.9704,0.9701,0.9581,0.9532,14.9327,0.3137,Original baseline
+Random Forest,SMOTE,0.9679,0.9679,0.9679,0.9679,0.9547,0.9553,47.0116,0.3567,Original baseline
+Bagging,Original,0.9887,0.9886,0.9887,0.9887,0.984,0.9803,13.7256,0.2198,Original baseline
+Bagging,SMOTE,0.9812,0.9814,0.9812,0.9813,0.9734,0.9726,10.4685,0.3377,Original baseline
+Extra Trees,Original,0.9808,0.9804,0.9808,0.9805,0.9728,0.9648,7.2283,0.4325,Original baseline
+Extra Trees,SMOTE,0.978,0.978,0.978,0.978,0.9689,0.9659,22.7181,0.429,Original baseline
+Gradient Boosting,Original,0.7469,0.7504,0.7469,0.7119,0.6321,0.6328,44.7746,0.1374,Original baseline
+Gradient Boosting,SMOTE,0.599,0.7337,0.599,0.6192,0.5193,0.6588,313.661,0.2645,Original baseline
+HistGradientBoosting,Original,0.9153,0.9033,0.9153,0.9025,0.8811,0.8408,15.1523,1.1767,Original baseline
+XGBoost,Original,0.9139,0.902,0.9139,0.8996,0.8791,0.8347,113.9363,0.5385,Original baseline
+XGBoost,SMOTE,0.9049,0.8992,0.9049,0.9011,0.8658,0.8502,124.9847,0.3672,Original baseline
+LightGBM,Original,0.9138,0.9023,0.9138,0.8998,0.879,0.8377,226.7837,1.5188,Original baseline
+LightGBM,SMOTE,0.9062,0.9008,0.9062,0.9027,0.8678,0.856,8.4747,0.3589,Original baseline
+CatBoost,Original,0.9035,0.8895,0.9035,0.8846,0.8648,0.8152,15.8678,0.0629,Original baseline
+CatBoost,SMOTE,0.8906,0.8783,0.8906,0.8789,0.8463,0.8247,31.4825,0.0661,Original baseline
+OvR Random Forest,Original,0.9776,0.9773,0.9776,0.9773,0.9683,0.962,65.4034,1.3501,Original baseline
+OvR Random Forest,SMOTE,0.9773,0.9773,0.9773,0.9773,0.968,0.9648,164.6725,2.5959,Original baseline
+OvO KNN,Original,0.9697,0.9688,0.9697,0.969,0.9572,0.9444,9.6003,313.2704,Original baseline
+OvO KNN,SMOTE,0.9602,0.9644,0.9602,0.9617,0.9446,0.9556,29.2004,361.2944,Original baseline
+Extra Trees,SMOTE,0.9808,0.978,0.978,0.9809,0.9729,0.9699,84.9519,0.8609,"Tuned, latest test evaluation"
+Random Forest,SMOTE,0.9691,0.969,0.9691,0.9691,0.9564,0.9565,125.6801,0.8987,"Tuned, latest test evaluation"
+Gradient Boosting,SMOTE,0.932,0.9276,0.932,0.9289,0.9039,0.8834,839.012,0.6915,"Tuned, latest test evaluation"
+XGBoost,SMOTE,0.9064,0.9025,0.9064,0.9039,0.868,0.8546,57.4608,0.4079,"Tuned, latest test evaluation"
+LightGBM,SMOTE,0.9018,0.9015,0.9018,0.9013,0.8621,0.8592,38.8174,2.323,"Tuned, latest test evaluation"
+CatBoost,SMOTE,0.9,0.8919,0.9,0.8942,0.8589,0.8403,127.9691,0.0704,"Tuned, latest test evaluation"

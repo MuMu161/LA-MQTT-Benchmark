@@ -1,0 +1,5 @@
+Model,Condition,Accuracy_mean,Accuracy_std,Macro_F1_mean,Macro_F1_std,Weighted_F1_mean,Weighted_F1_std,Balanced_Accuracy_mean,Balanced_Accuracy_std,MCC_mean,MCC_std,Training_Time_s_mean,Training_Time_s_std,Inference_Time_s_mean,Inference_Time_s_std
+Decision Tree,Original,0.9219,0.00078,0.85029,0.0009,0.90974,0.00042,0.85398,0.00104,0.89047,0.00118,1.03618,0.11065,0.01179,0.00073
+Decision Tree,SMOTE,0.89812,0.00258,0.85012,0.002,0.89989,0.00219,0.85235,0.00163,0.85681,0.00346,3.76877,0.45063,0.0135,0.00078
+Random Forest,Original,0.91271,0.00079,0.83663,0.00185,0.89871,0.00098,0.83879,0.00119,0.8773,0.00109,7.2961,0.47828,0.22202,0.00571
+Random Forest,SMOTE,0.89442,0.00284,0.84547,0.00238,0.89533,0.00234,0.84746,0.00237,0.8514,0.00386,23.71292,0.83059,0.25886,0.03195

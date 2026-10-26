@@ -1,0 +1,7 @@
+Actual Class,Brute Force,DoS,Flood,Legitimate,Malformed,SlowITe
+Brute Force,5080,0,53,235,107,0
+DoS,135,5242,0,97,2500,387
+Flood,0,20,1919,78,6,20
+Legitimate,1662,374,40,703,711,21
+Malformed,985,5155,5,88,14648,225
+SlowITe,1,1139,0,106,1448,1324

@@ -1,0 +1,5 @@
+Experiment,Best Model,Our_F1,Our_Accuracy,Key Finding,F1_Percentage,Accuracy_Percentage
+Original Multiclass,Bagging,0.9887,0.9887,Very close to paper,98.87,98.87
+SMOTE Multiclass,Bagging,0.9813,0.9812,SMOTE maintained high performance,98.13,98.11999999999999
+Deep Learning,ANN,0.6802,0.6925,Tree models outperform DL on tabular data,68.02,69.25
+Balanced Binary,Bagging,0.967807,0.968105,Strong legitimate vs attack classification,96.7807,96.8105

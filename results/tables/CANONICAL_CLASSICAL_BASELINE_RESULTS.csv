@@ -1,0 +1,22 @@
+Model,Dataset,F1,Result_Type
+CART,Original,0.9877,Baseline
+CART,SMOTE,0.9794,Baseline
+Random Forest,Original,0.9701,Baseline
+Random Forest,SMOTE,0.9679,Baseline
+Bagging,Original,0.9887,Baseline
+Bagging,SMOTE,0.9813,Baseline
+Extra Trees,Original,0.9805,Baseline
+Extra Trees,SMOTE,0.978,Baseline
+Gradient Boosting,Original,0.7119,Baseline
+Gradient Boosting,SMOTE,0.6192,Baseline
+HistGradientBoosting,Original,0.9025,Baseline
+XGBoost,Original,0.8996,Baseline
+XGBoost,SMOTE,0.9011,Baseline
+LightGBM,Original,0.8998,Baseline
+LightGBM,SMOTE,0.9027,Baseline
+CatBoost,Original,0.8846,Baseline
+CatBoost,SMOTE,0.8789,Baseline
+OvR Random Forest,Original,0.9773,Baseline
+OvR Random Forest,SMOTE,0.9773,Baseline
+OvO KNN,Original,0.969,Baseline
+OvO KNN,SMOTE,0.9617,Baseline

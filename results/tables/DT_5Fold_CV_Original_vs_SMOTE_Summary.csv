@@ -1,0 +1,3 @@
+Condition,Accuracy_mean,Accuracy_std,Macro_F1_mean,Macro_F1_std,Weighted_F1_mean,Weighted_F1_std,Balanced_Accuracy_mean,Balanced_Accuracy_std,MCC_mean,MCC_std,Training_Time_s_mean,Training_Time_s_std,Inference_Time_s_mean,Inference_Time_s_std
+Original,0.9219,0.00078,0.85029,0.0009,0.90974,0.00042,0.85398,0.00104,0.89047,0.00118,1.03618,0.11065,0.01179,0.00073
+SMOTE,0.89812,0.00258,0.85012,0.002,0.89989,0.00219,0.85235,0.00163,0.85681,0.00346,3.76877,0.45063,0.0135,0.00078

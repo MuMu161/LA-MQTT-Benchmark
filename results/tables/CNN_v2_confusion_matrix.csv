@@ -1,0 +1,7 @@
+,Brute Force,DoS,Flood,Legitimate,Malformed,SlowITe
+Brute Force,4293,0,150,667,365,0
+DoS,0,4970,0,97,889,2405
+Flood,9,18,1914,83,0,19
+Legitimate,1313,313,99,825,895,66
+Malformed,0,4225,42,140,16026,673
+SlowITe,1,985,0,106,215,2711

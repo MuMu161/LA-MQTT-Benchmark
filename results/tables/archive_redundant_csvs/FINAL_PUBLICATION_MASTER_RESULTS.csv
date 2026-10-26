@@ -1,0 +1,26 @@
+Model,Model_Family,Dataset,Experiment_Type,Accuracy,Weighted_F1,Accuracy_percent,Weighted_F1_percent
+CART,Classical ML,Original,Baseline,,0.9877,,98.77
+CART,Classical ML,SMOTE,Baseline,,0.9794,,97.94
+Random Forest,Classical ML,Original,Baseline,,0.9701,,97.00999999999999
+Random Forest,Classical ML,SMOTE,Baseline,,0.9679,,96.78999999999999
+Bagging,Classical ML,Original,Baseline,,0.9887,,98.87
+Bagging,Classical ML,SMOTE,Baseline,,0.9813,,98.13
+Extra Trees,Classical ML,Original,Baseline,,0.9805,,98.05
+Extra Trees,Classical ML,SMOTE,Baseline,,0.978,,97.8
+Gradient Boosting,Classical ML,Original,Baseline,,0.7119,,71.19
+Gradient Boosting,Classical ML,SMOTE,Baseline,,0.6192,,61.919999999999995
+HistGradientBoosting,Classical ML,Original,Baseline,,0.9025,,90.25
+XGBoost,Classical ML,Original,Baseline,,0.8996,,89.96
+XGBoost,Classical ML,SMOTE,Baseline,,0.9011,,90.11
+LightGBM,Classical ML,Original,Baseline,,0.8998,,89.98
+LightGBM,Classical ML,SMOTE,Baseline,,0.9027,,90.27
+CatBoost,Classical ML,Original,Baseline,,0.8846,,88.46000000000001
+CatBoost,Classical ML,SMOTE,Baseline,,0.8789,,87.89
+OvR Random Forest,Classical ML,Original,Baseline,,0.9773,,97.72999999999999
+OvR Random Forest,Classical ML,SMOTE,Baseline,,0.9773,,97.72999999999999
+OvO KNN,Classical ML,Original,Baseline,,0.969,,96.89999999999999
+OvO KNN,Classical ML,SMOTE,Baseline,,0.9617,,96.17
+ANN,Deep Learning,SMOTE,Selected version,0.6495933863503617,0.6397651093592251,64.95933863503616,63.97651093592251
+1D CNN,Deep Learning,SMOTE,Selected version,0.6905467942669722,0.6937299155351013,69.05467942669722,69.37299155351013
+SimpleRNN,Deep Learning,SMOTE,Selected version,0.6311272857977266,0.6195076957227196,63.11272857977266,61.95076957227196
+LSTM,Deep Learning,SMOTE,Selected version,0.6094262479220021,0.6057254882840591,60.942624792200206,60.572548828405914

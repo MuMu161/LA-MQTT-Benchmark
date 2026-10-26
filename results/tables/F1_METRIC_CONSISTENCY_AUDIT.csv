@@ -1,0 +1,48 @@
+Model,Source_File,Paper_F1,Our_F1,Dataset,F1
+Bagging,Paper_vs_Our_SMOTE_Multiclass_F1.csv,0.99,0.9813,,
+LightGBM,Paper_vs_Our_SMOTE_Multiclass_F1.csv,0.89,0.9027,,
+XGBoost,Paper_vs_Our_SMOTE_Multiclass_F1.csv,0.89,0.9011,,
+Gradient Boosting,Paper_vs_Our_SMOTE_Multiclass_F1.csv,0.93,0.6192,,
+Bagging,Classical_ML_Master_Results.csv,,,Original,0.9887
+Bagging,Classical_ML_Master_Results.csv,,,SMOTE,0.9813
+Gradient Boosting,Classical_ML_Master_Results.csv,,,Original,0.7119
+Gradient Boosting,Classical_ML_Master_Results.csv,,,SMOTE,0.6192
+HistGradientBoosting,Classical_ML_Master_Results.csv,,,Original,0.9025
+XGBoost,Classical_ML_Master_Results.csv,,,Original,0.8996
+XGBoost,Classical_ML_Master_Results.csv,,,SMOTE,0.9011
+LightGBM,Classical_ML_Master_Results.csv,,,Original,0.8998
+LightGBM,Classical_ML_Master_Results.csv,,,SMOTE,0.9027
+Bagging,UPDATED_Classical_ML_Results.csv,,,Original,0.9887
+Bagging,UPDATED_Classical_ML_Results.csv,,,SMOTE,0.9813
+Gradient Boosting,UPDATED_Classical_ML_Results.csv,,,Original,0.7119
+Gradient Boosting,UPDATED_Classical_ML_Results.csv,,,SMOTE,0.6192
+HistGradientBoosting,UPDATED_Classical_ML_Results.csv,,,Original,0.9025
+XGBoost,UPDATED_Classical_ML_Results.csv,,,Original,0.8996
+XGBoost,UPDATED_Classical_ML_Results.csv,,,SMOTE,0.9011
+LightGBM,UPDATED_Classical_ML_Results.csv,,,Original,0.8998
+LightGBM,UPDATED_Classical_ML_Results.csv,,,SMOTE,0.9027
+Gradient Boosting,UPDATED_Classical_ML_Results.csv,,,SMOTE,0.9289
+XGBoost,UPDATED_Classical_ML_Results.csv,,,SMOTE,0.9039
+LightGBM,UPDATED_Classical_ML_Results.csv,,,SMOTE,0.9013
+Bagging,FINAL_MASTER_RESULTS.csv,,,Original,0.9887
+Bagging,FINAL_MASTER_RESULTS.csv,,,SMOTE,0.9813
+Gradient Boosting,FINAL_MASTER_RESULTS.csv,,,Original,0.7119
+Gradient Boosting,FINAL_MASTER_RESULTS.csv,,,SMOTE,0.6192
+HistGradientBoosting,FINAL_MASTER_RESULTS.csv,,,Original,0.9025
+XGBoost,FINAL_MASTER_RESULTS.csv,,,Original,0.8996
+XGBoost,FINAL_MASTER_RESULTS.csv,,,SMOTE,0.9011
+LightGBM,FINAL_MASTER_RESULTS.csv,,,Original,0.8998
+LightGBM,FINAL_MASTER_RESULTS.csv,,,SMOTE,0.9027
+Gradient Boosting,FINAL_MASTER_RESULTS.csv,,,Balanced Binary,0.8444014910948502
+LightGBM,FINAL_MASTER_RESULTS.csv,,,Balanced Binary,0.8569769130245389
+XGBoost,FINAL_MASTER_RESULTS.csv,,,Balanced Binary,0.8570591681312244
+Bagging,FINAL_MASTER_RESULTS.csv,,,Balanced Binary,0.9678068410462776
+Bagging,MASTER_Multiclass_Model_Comparison.csv,,,Original,0.9887
+Bagging,MASTER_Multiclass_Model_Comparison.csv,,,SMOTE,0.9813
+Gradient Boosting,MASTER_Multiclass_Model_Comparison.csv,,,Original,0.7119
+Gradient Boosting,MASTER_Multiclass_Model_Comparison.csv,,,SMOTE,0.6192
+HistGradientBoosting,MASTER_Multiclass_Model_Comparison.csv,,,Original,0.9025
+XGBoost,MASTER_Multiclass_Model_Comparison.csv,,,Original,0.8996
+XGBoost,MASTER_Multiclass_Model_Comparison.csv,,,SMOTE,0.9011
+LightGBM,MASTER_Multiclass_Model_Comparison.csv,,,Original,0.8998
+LightGBM,MASTER_Multiclass_Model_Comparison.csv,,,SMOTE,0.9027

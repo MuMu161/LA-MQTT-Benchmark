@@ -1,0 +1,5 @@
+Model,Paper_F1,Our_Original_F1,Our_SMOTE_F1,Original_Gap_pp,SMOTE_Gap_vs_Paper_pp,SMOTE_Improvement_pp
+ANN,0.659,0.6189,0.6802,-4.01,2.12,6.13
+CNN,0.59,0.5635,0.6469,-2.65,5.69,8.34
+SimpleRNN,0.645,0.574,0.6343,-7.1,-1.07,6.03
+LSTM,0.71,0.586,0.6755,-12.4,-3.45,8.95

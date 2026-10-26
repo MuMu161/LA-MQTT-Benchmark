@@ -1,0 +1,2 @@
+Model,Dataset,Accuracy,Weighted_Precision,Weighted_Recall,Weighted_F1,MCC,Balanced_Accuracy,Training_Time_sec,Inference_Time_sec
+Decision Tree (CART),SMOTE-balanced training / original test,0.9792874151952194,0.9796621193789112,0.9792874151952194,0.9794437304643248,0.9707977684808878,0.9715098722921205,7.272828000015579,0.023675100004766136

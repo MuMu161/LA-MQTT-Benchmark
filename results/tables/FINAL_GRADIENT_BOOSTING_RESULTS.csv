@@ -1,0 +1,4 @@
+Model,Dataset,Experiment,Accuracy,F1,MCC,Balanced_Accuracy,F1_percent,Accuracy_percent
+Gradient Boosting,Original,Original baseline,0.7469,0.7119,0.6321,0.6328,71.19,74.69
+Gradient Boosting,SMOTE,Original baseline,0.599,0.6192,0.5193,0.6588,61.919999999999995,59.9
+Gradient Boosting,SMOTE,"Tuned, latest test evaluation",0.932,0.9289,0.9039,0.8834,92.89,93.2

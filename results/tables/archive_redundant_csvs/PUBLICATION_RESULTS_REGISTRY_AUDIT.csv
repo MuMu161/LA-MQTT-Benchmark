@@ -1,0 +1,162 @@
+Experiment,Model,Dataset,Accuracy,Precision,Recall,F1,MCC,Balanced_Accuracy,ROC_AUC,PR_AUC,Train_Time_s,Inference_Time_s,PES,Source_File,Model_Family,Version,Weighted_Precision,Weighted_Recall,Weighted_F1,Training_Time_s,Macro_F1,Model_Normalized,Dataset_Normalized,Result_Type
+Classical ML,CART,Original,0.9877,0.9877,0.9877,0.9877,0.9827,0.9796,,,2.4677,0.0184,,FINAL_MASTER_RESULTS.csv,,,,,,,,CART,Original,Baseline / prior result
+Classical ML,CART,SMOTE,0.9793,0.9797,0.9793,0.9794,0.9708,0.9715,,,8.6807,0.0278,,FINAL_MASTER_RESULTS.csv,,,,,,,,CART,SMOTE,Baseline / prior result
+Classical ML,Random Forest,Original,0.9704,0.97,0.9704,0.9701,0.9581,0.9532,,,14.9327,0.3137,,FINAL_MASTER_RESULTS.csv,,,,,,,,Random Forest,Original,Baseline / prior result
+Classical ML,Random Forest,SMOTE,0.9679,0.9679,0.9679,0.9679,0.9547,0.9553,,,47.0116,0.3567,,FINAL_MASTER_RESULTS.csv,,,,,,,,Random Forest,SMOTE,Baseline / prior result
+Classical ML,Bagging,Original,0.9887,0.9886,0.9887,0.9887,0.984,0.9803,,,13.7256,0.2198,,FINAL_MASTER_RESULTS.csv,,,,,,,,Bagging,Original,Baseline / prior result
+Classical ML,Bagging,SMOTE,0.9812,0.9814,0.9812,0.9813,0.9734,0.9726,,,10.4685,0.3377,,FINAL_MASTER_RESULTS.csv,,,,,,,,Bagging,SMOTE,Baseline / prior result
+Classical ML,Extra Trees,Original,0.9808,0.9804,0.9808,0.9805,0.9728,0.9648,,,7.2283,0.4325,,FINAL_MASTER_RESULTS.csv,,,,,,,,Extra Trees,Original,Baseline / prior result
+Classical ML,Extra Trees,SMOTE,0.978,0.978,0.978,0.978,0.9689,0.9659,,,22.7181,0.429,,FINAL_MASTER_RESULTS.csv,,,,,,,,Extra Trees,SMOTE,Baseline / prior result
+Classical ML,Gradient Boosting,Original,0.7469,0.7504,0.7469,0.7119,0.6321,0.6328,,,44.7746,0.1374,,FINAL_MASTER_RESULTS.csv,,,,,,,,Gradient Boosting,Original,Baseline / prior result
+Classical ML,Gradient Boosting,SMOTE,0.599,0.7337,0.599,0.6192,0.5193,0.6588,,,313.661,0.2645,,FINAL_MASTER_RESULTS.csv,,,,,,,,Gradient Boosting,SMOTE,Baseline / prior result
+Classical ML,HistGradientBoosting,Original,0.9153,0.9033,0.9153,0.9025,0.8811,0.8408,,,15.1523,1.1767,,FINAL_MASTER_RESULTS.csv,,,,,,,,HistGradientBoosting,Original,Baseline / prior result
+Classical ML,XGBoost,Original,0.9139,0.902,0.9139,0.8996,0.8791,0.8347,,,113.9363,0.5385,,FINAL_MASTER_RESULTS.csv,,,,,,,,XGBoost,Original,Baseline / prior result
+Classical ML,XGBoost,SMOTE,0.9049,0.8992,0.9049,0.9011,0.8658,0.8502,,,124.9847,0.3672,,FINAL_MASTER_RESULTS.csv,,,,,,,,XGBoost,SMOTE,Baseline / prior result
+Classical ML,LightGBM,Original,0.9138,0.9023,0.9138,0.8998,0.879,0.8377,,,226.7837,1.5188,,FINAL_MASTER_RESULTS.csv,,,,,,,,LightGBM,Original,Baseline / prior result
+Classical ML,LightGBM,SMOTE,0.9062,0.9008,0.9062,0.9027,0.8678,0.856,,,8.4747,0.3589,,FINAL_MASTER_RESULTS.csv,,,,,,,,LightGBM,SMOTE,Baseline / prior result
+Classical ML,CatBoost,Original,0.9035,0.8895,0.9035,0.8846,0.8648,0.8152,,,15.8678,0.0629,,FINAL_MASTER_RESULTS.csv,,,,,,,,CatBoost,Original,Baseline / prior result
+Classical ML,CatBoost,SMOTE,0.8906,0.8783,0.8906,0.8789,0.8463,0.8247,,,31.4825,0.0661,,FINAL_MASTER_RESULTS.csv,,,,,,,,CatBoost,SMOTE,Baseline / prior result
+Classical ML,OvR Random Forest,Original,0.9776,0.9773,0.9776,0.9773,0.9683,0.962,,,65.4034,1.3501,,FINAL_MASTER_RESULTS.csv,,,,,,,,OvR Random Forest,Original,Baseline / prior result
+Classical ML,OvR Random Forest,SMOTE,0.9773,0.9773,0.9773,0.9773,0.968,0.9648,,,164.6725,2.5959,,FINAL_MASTER_RESULTS.csv,,,,,,,,OvR Random Forest,SMOTE,Baseline / prior result
+Classical ML,OvO KNN,Original,0.9697,0.9688,0.9697,0.969,0.9572,0.9444,,,9.6003,313.2704,,FINAL_MASTER_RESULTS.csv,,,,,,,,OvO KNN,Original,Baseline / prior result
+Classical ML,OvO KNN,SMOTE,0.9602,0.9644,0.9602,0.9617,0.9446,0.9556,,,29.2004,361.2944,,FINAL_MASTER_RESULTS.csv,,,,,,,,OvO KNN,SMOTE,Baseline / prior result
+Deep Learning,ANN,Original,0.6596,0.6892,0.6596,0.6189,0.4924,0.4878,0.8533,0.7007,48.5128,0.8412,,FINAL_MASTER_RESULTS.csv,,,,,,,,ANN,Original,Baseline / prior result
+Deep Learning,ANN,SMOTE,0.6925,0.7144,0.6925,0.6802,0.5614,0.6334,0.886,0.7504,130.9724,0.9642,,FINAL_MASTER_RESULTS.csv,,,,,,,,ANN,SMOTE,Baseline / prior result
+Deep Learning,1D CNN,Original,0.6176,0.6702,0.6176,0.5635,0.4252,0.4394,0.8154,0.6483,87.642,0.9729,,FINAL_MASTER_RESULTS.csv,,,,,,,,1D CNN,Original,Baseline / prior result
+Deep Learning,1D CNN,SMOTE,0.6589,0.6932,0.6589,0.6469,0.5136,0.5931,0.888,0.7303,235.7316,0.9874,,FINAL_MASTER_RESULTS.csv,,,,,,,,1D CNN,SMOTE,Baseline / prior result
+Deep Learning,SimpleRNN,Original,0.6302,0.6739,0.6302,0.574,0.4498,0.4917,0.8205,0.6441,66.2704,1.8048,,FINAL_MASTER_RESULTS.csv,,,,,,,,SimpleRNN,Original,Baseline / prior result
+Deep Learning,SimpleRNN,SMOTE,0.6544,0.6791,0.6544,0.6343,0.4994,0.5864,0.847,0.693,189.58,6.5049,,FINAL_MASTER_RESULTS.csv,,,,,,,,SimpleRNN,SMOTE,Baseline / prior result
+Deep Learning,LSTM,Original,0.6374,0.6872,0.6374,0.586,0.4622,0.4897,0.8238,0.6533,85.2592,1.8582,,FINAL_MASTER_RESULTS.csv,,,,,,,,LSTM,Original,Baseline / prior result
+Deep Learning,LSTM,SMOTE,0.698,0.7005,0.698,0.6755,0.5585,0.6139,0.8796,0.7426,234.64,6.5208,,FINAL_MASTER_RESULTS.csv,,,,,,,,LSTM,SMOTE,Baseline / prior result
+Balanced Binary,CART,Balanced Binary,0.9642602876263704,0.9713707345286292,0.956707490743378,0.9639833548572248,0.9286262002799625,0.964259212342076,,,0.2096087999998417,0.0045195000002422,213.80658437595463,FINAL_MASTER_RESULTS.csv,,,,,,,,CART,Balanced Binary,Baseline / prior result
+Balanced Binary,CatBoost,Balanced Binary,0.841947885519009,0.8486784780714494,0.8322415266305896,0.8403796376186368,0.6840231604526542,0.8419465036342014,,,1.0822508999990532,0.010477499999979,80.70272041678948,FINAL_MASTER_RESULTS.csv,,,,,,,,CatBoost,Balanced Binary,Baseline / prior result
+Balanced Binary,Gradient Boosting,Balanced Binary,0.8395272675494803,0.8193997856377278,0.8709769296496724,0.8444014910948502,0.6804062446361259,0.8395317450070685,,,3.469798799998898,0.0107345999986137,78.85486304738507,FINAL_MASTER_RESULTS.csv,,,,,,,,Gradient Boosting,Balanced Binary,Baseline / prior result
+Balanced Binary,LightGBM,Balanced Binary,0.8597465470596611,0.8741113744075829,0.8405012816861293,0.8569769130245389,0.7200238626337992,0.8597438071300806,,,0.6361723999998503,0.0175968000003194,49.20735494424398,FINAL_MASTER_RESULTS.csv,,,,,,,,LightGBM,Balanced Binary,Baseline / prior result
+Balanced Binary,XGBoost,Balanced Binary,0.8610280506905881,0.8821223997588182,0.8333808031899743,0.8570591681312244,0.7231583951661944,0.8610241145790418,,,0.6718561999987287,0.019579200001317,44.30345088288197,FINAL_MASTER_RESULTS.csv,,,,,,,,XGBoost,Balanced Binary,Baseline / prior result
+Balanced Binary,OvR Random Forest,Balanced Binary,0.9424747259006124,0.954904831625183,0.9287952150384506,0.941669073058042,0.8852798981998635,0.94247277836205,,,1.2931845000002795,0.0998500000005151,9.8984366650952,FINAL_MASTER_RESULTS.csv,,,,,,,,OvR Random Forest,Balanced Binary,Baseline / prior result
+Balanced Binary,Extra Trees,Balanced Binary,0.9382030471308558,0.947108398721302,0.9282255767587582,0.937571921749137,0.8765799288036914,0.938201626648172,,,0.677243100000851,0.1110689999986789,8.904901240710862,FINAL_MASTER_RESULTS.csv,,,,,,,,Extra Trees,Balanced Binary,Baseline / prior result
+Balanced Binary,Random Forest,Balanced Binary,0.9424747259006124,0.954904831625183,0.9287952150384506,0.941669073058042,0.8852798981998635,0.94247277836205,,,1.4195631000002322,0.1561295000010432,6.493563978185787,FINAL_MASTER_RESULTS.csv,,,,,,,,Random Forest,Balanced Binary,Baseline / prior result
+Balanced Binary,Bagging,Balanced Binary,0.9681047985191512,0.9767914128227444,0.9589860438621476,0.9678068410462776,0.9363649651878864,0.9681035002909828,,,14.143153799999707,0.2724371000003884,4.0175137890662125,FINAL_MASTER_RESULTS.csv,,,,,,,,Bagging,Balanced Binary,Baseline / prior result
+Balanced Binary,OvO KNN,Balanced Binary,0.8868005126014523,0.9087898856110777,0.8598689831956707,0.8836528611151764,0.7747222754448111,0.8867966783859902,,,0.1547590999998647,2.787431200000356,0.6647403018573497,FINAL_MASTER_RESULTS.csv,,,,,,,,OvO KNN,Balanced Binary,Baseline / prior result
+,CART,Original,0.9877,0.9877,0.9877,0.9877,0.9827,0.9796,,,2.4677,0.0184,,Classical_ML_Master_Results.csv,,,,,,,,CART,Original,Baseline / prior result
+,CART,SMOTE,0.9793,0.9797,0.9793,0.9794,0.9708,0.9715,,,8.6807,0.0278,,Classical_ML_Master_Results.csv,,,,,,,,CART,SMOTE,Baseline / prior result
+,Random Forest,Original,0.9704,0.97,0.9704,0.9701,0.9581,0.9532,,,14.9327,0.3137,,Classical_ML_Master_Results.csv,,,,,,,,Random Forest,Original,Baseline / prior result
+,Random Forest,SMOTE,0.9679,0.9679,0.9679,0.9679,0.9547,0.9553,,,47.0116,0.3567,,Classical_ML_Master_Results.csv,,,,,,,,Random Forest,SMOTE,Baseline / prior result
+,Bagging,Original,0.9887,0.9886,0.9887,0.9887,0.984,0.9803,,,13.7256,0.2198,,Classical_ML_Master_Results.csv,,,,,,,,Bagging,Original,Baseline / prior result
+,Bagging,SMOTE,0.9812,0.9814,0.9812,0.9813,0.9734,0.9726,,,10.4685,0.3377,,Classical_ML_Master_Results.csv,,,,,,,,Bagging,SMOTE,Baseline / prior result
+,Extra Trees,Original,0.9808,0.9804,0.9808,0.9805,0.9728,0.9648,,,7.2283,0.4325,,Classical_ML_Master_Results.csv,,,,,,,,Extra Trees,Original,Baseline / prior result
+,Extra Trees,SMOTE,0.978,0.978,0.978,0.978,0.9689,0.9659,,,22.7181,0.429,,Classical_ML_Master_Results.csv,,,,,,,,Extra Trees,SMOTE,Baseline / prior result
+,Gradient Boosting,Original,0.7469,0.7504,0.7469,0.7119,0.6321,0.6328,,,44.7746,0.1374,,Classical_ML_Master_Results.csv,,,,,,,,Gradient Boosting,Original,Baseline / prior result
+,Gradient Boosting,SMOTE,0.599,0.7337,0.599,0.6192,0.5193,0.6588,,,313.661,0.2645,,Classical_ML_Master_Results.csv,,,,,,,,Gradient Boosting,SMOTE,Baseline / prior result
+,HistGradientBoosting,Original,0.9153,0.9033,0.9153,0.9025,0.8811,0.8408,,,15.1523,1.1767,,Classical_ML_Master_Results.csv,,,,,,,,HistGradientBoosting,Original,Baseline / prior result
+,XGBoost,Original,0.9139,0.902,0.9139,0.8996,0.8791,0.8347,,,113.9363,0.5385,,Classical_ML_Master_Results.csv,,,,,,,,XGBoost,Original,Baseline / prior result
+,XGBoost,SMOTE,0.9049,0.8992,0.9049,0.9011,0.8658,0.8502,,,124.9847,0.3672,,Classical_ML_Master_Results.csv,,,,,,,,XGBoost,SMOTE,Baseline / prior result
+,LightGBM,Original,0.9138,0.9023,0.9138,0.8998,0.879,0.8377,,,226.7837,1.5188,,Classical_ML_Master_Results.csv,,,,,,,,LightGBM,Original,Baseline / prior result
+,LightGBM,SMOTE,0.9062,0.9008,0.9062,0.9027,0.8678,0.856,,,8.4747,0.3589,,Classical_ML_Master_Results.csv,,,,,,,,LightGBM,SMOTE,Baseline / prior result
+,CatBoost,Original,0.9035,0.8895,0.9035,0.8846,0.8648,0.8152,,,15.8678,0.0629,,Classical_ML_Master_Results.csv,,,,,,,,CatBoost,Original,Baseline / prior result
+,CatBoost,SMOTE,0.8906,0.8783,0.8906,0.8789,0.8463,0.8247,,,31.4825,0.0661,,Classical_ML_Master_Results.csv,,,,,,,,CatBoost,SMOTE,Baseline / prior result
+,OvR Random Forest,Original,0.9776,0.9773,0.9776,0.9773,0.9683,0.962,,,65.4034,1.3501,,Classical_ML_Master_Results.csv,,,,,,,,OvR Random Forest,Original,Baseline / prior result
+,OvR Random Forest,SMOTE,0.9773,0.9773,0.9773,0.9773,0.968,0.9648,,,164.6725,2.5959,,Classical_ML_Master_Results.csv,,,,,,,,OvR Random Forest,SMOTE,Baseline / prior result
+,OvO KNN,Original,0.9697,0.9688,0.9697,0.969,0.9572,0.9444,,,9.6003,313.2704,,Classical_ML_Master_Results.csv,,,,,,,,OvO KNN,Original,Baseline / prior result
+,OvO KNN,SMOTE,0.9602,0.9644,0.9602,0.9617,0.9446,0.9556,,,29.2004,361.2944,,Classical_ML_Master_Results.csv,,,,,,,,OvO KNN,SMOTE,Baseline / prior result
+,CART,Original,0.9877,0.9877,0.9877,0.9877,0.9827,0.9796,,,2.4677,0.0184,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,CART,Original,Baseline / prior result
+,CART,SMOTE,0.9793,0.9797,0.9793,0.9794,0.9708,0.9715,,,8.6807,0.0278,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,CART,SMOTE,Baseline / prior result
+,Random Forest,Original,0.9704,0.97,0.9704,0.9701,0.9581,0.9532,,,14.9327,0.3137,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,Random Forest,Original,Baseline / prior result
+,Random Forest,SMOTE,0.9679,0.9679,0.9679,0.9679,0.9547,0.9553,,,47.0116,0.3567,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,Random Forest,SMOTE,Baseline / prior result
+,Bagging,Original,0.9887,0.9886,0.9887,0.9887,0.984,0.9803,,,13.7256,0.2198,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,Bagging,Original,Baseline / prior result
+,Bagging,SMOTE,0.9812,0.9814,0.9812,0.9813,0.9734,0.9726,,,10.4685,0.3377,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,Bagging,SMOTE,Baseline / prior result
+,Extra Trees,Original,0.9808,0.9804,0.9808,0.9805,0.9728,0.9648,,,7.2283,0.4325,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,Extra Trees,Original,Baseline / prior result
+,Extra Trees,SMOTE,0.978,0.978,0.978,0.978,0.9689,0.9659,,,22.7181,0.429,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,Extra Trees,SMOTE,Baseline / prior result
+,Gradient Boosting,Original,0.7469,0.7504,0.7469,0.7119,0.6321,0.6328,,,44.7746,0.1374,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,Gradient Boosting,Original,Baseline / prior result
+,Gradient Boosting,SMOTE,0.599,0.7337,0.599,0.6192,0.5193,0.6588,,,313.661,0.2645,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,Gradient Boosting,SMOTE,Baseline / prior result
+,HistGradientBoosting,Original,0.9153,0.9033,0.9153,0.9025,0.8811,0.8408,,,15.1523,1.1767,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,HistGradientBoosting,Original,Baseline / prior result
+,XGBoost,Original,0.9139,0.902,0.9139,0.8996,0.8791,0.8347,,,113.9363,0.5385,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,XGBoost,Original,Baseline / prior result
+,XGBoost,SMOTE,0.9049,0.8992,0.9049,0.9011,0.8658,0.8502,,,124.9847,0.3672,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,XGBoost,SMOTE,Baseline / prior result
+,LightGBM,Original,0.9138,0.9023,0.9138,0.8998,0.879,0.8377,,,226.7837,1.5188,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,LightGBM,Original,Baseline / prior result
+,LightGBM,SMOTE,0.9062,0.9008,0.9062,0.9027,0.8678,0.856,,,8.4747,0.3589,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,LightGBM,SMOTE,Baseline / prior result
+,CatBoost,Original,0.9035,0.8895,0.9035,0.8846,0.8648,0.8152,,,15.8678,0.0629,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,CatBoost,Original,Baseline / prior result
+,CatBoost,SMOTE,0.8906,0.8783,0.8906,0.8789,0.8463,0.8247,,,31.4825,0.0661,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,CatBoost,SMOTE,Baseline / prior result
+,OvR Random Forest,Original,0.9776,0.9773,0.9776,0.9773,0.9683,0.962,,,65.4034,1.3501,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,OvR Random Forest,Original,Baseline / prior result
+,OvR Random Forest,SMOTE,0.9773,0.9773,0.9773,0.9773,0.968,0.9648,,,164.6725,2.5959,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,OvR Random Forest,SMOTE,Baseline / prior result
+,OvO KNN,Original,0.9697,0.9688,0.9697,0.969,0.9572,0.9444,,,9.6003,313.2704,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,OvO KNN,Original,Baseline / prior result
+,OvO KNN,SMOTE,0.9602,0.9644,0.9602,0.9617,0.9446,0.9556,,,29.2004,361.2944,,MASTER_Multiclass_Model_Comparison.csv,Classical ML,,,,,,,OvO KNN,SMOTE,Baseline / prior result
+,ANN,Original,0.6596,0.6892,0.6596,0.6189,0.4924,0.4878,0.8533,0.7007,48.5128,0.8412,,MASTER_Multiclass_Model_Comparison.csv,Deep Learning,,,,,,,ANN,Original,Baseline / prior result
+,ANN,SMOTE,0.6925,0.7144,0.6925,0.6802,0.5614,0.6334,0.886,0.7504,130.9724,0.9642,,MASTER_Multiclass_Model_Comparison.csv,Deep Learning,,,,,,,ANN,SMOTE,Baseline / prior result
+,1D CNN,Original,0.6176,0.6702,0.6176,0.5635,0.4252,0.4394,0.8154,0.6483,87.642,0.9729,,MASTER_Multiclass_Model_Comparison.csv,Deep Learning,,,,,,,1D CNN,Original,Baseline / prior result
+,1D CNN,SMOTE,0.6589,0.6932,0.6589,0.6469,0.5136,0.5931,0.888,0.7303,235.7316,0.9874,,MASTER_Multiclass_Model_Comparison.csv,Deep Learning,,,,,,,1D CNN,SMOTE,Baseline / prior result
+,SimpleRNN,Original,0.6302,0.6739,0.6302,0.574,0.4498,0.4917,0.8205,0.6441,66.2704,1.8048,,MASTER_Multiclass_Model_Comparison.csv,Deep Learning,,,,,,,SimpleRNN,Original,Baseline / prior result
+,SimpleRNN,SMOTE,0.6544,0.6791,0.6544,0.6343,0.4994,0.5864,0.847,0.693,189.58,6.5049,,MASTER_Multiclass_Model_Comparison.csv,Deep Learning,,,,,,,SimpleRNN,SMOTE,Baseline / prior result
+,LSTM,Original,0.6374,0.6872,0.6374,0.586,0.4622,0.4897,0.8238,0.6533,85.2592,1.8582,,MASTER_Multiclass_Model_Comparison.csv,Deep Learning,,,,,,,LSTM,Original,Baseline / prior result
+,LSTM,SMOTE,0.698,0.7005,0.698,0.6755,0.5585,0.6139,0.8796,0.7426,234.64,6.5208,,MASTER_Multiclass_Model_Comparison.csv,Deep Learning,,,,,,,LSTM,SMOTE,Baseline / prior result
+,CART,Original,98.77,98.77,98.77,98.77,98.27,97.96,,,2.47,0.02,,FINAL_Multiclass_Results_Table.csv,,,,,,,,CART,Original,Baseline / prior result
+,CART,SMOTE,97.93,97.97,97.93,97.94,97.08,97.15,,,8.68,0.03,,FINAL_Multiclass_Results_Table.csv,,,,,,,,CART,SMOTE,Baseline / prior result
+,Random Forest,Original,97.04,97.0,97.04,97.01,95.81,95.32,,,14.93,0.31,,FINAL_Multiclass_Results_Table.csv,,,,,,,,Random Forest,Original,Baseline / prior result
+,Random Forest,SMOTE,96.79,96.79,96.79,96.79,95.47,95.53,,,47.01,0.36,,FINAL_Multiclass_Results_Table.csv,,,,,,,,Random Forest,SMOTE,Baseline / prior result
+,Bagging,Original,98.87,98.86,98.87,98.87,98.4,98.03,,,13.73,0.22,,FINAL_Multiclass_Results_Table.csv,,,,,,,,Bagging,Original,Baseline / prior result
+,Bagging,SMOTE,98.12,98.14,98.12,98.13,97.34,97.26,,,10.47,0.34,,FINAL_Multiclass_Results_Table.csv,,,,,,,,Bagging,SMOTE,Baseline / prior result
+,Extra Trees,Original,98.08,98.04,98.08,98.05,97.28,96.48,,,7.23,0.43,,FINAL_Multiclass_Results_Table.csv,,,,,,,,Extra Trees,Original,Baseline / prior result
+,Extra Trees,SMOTE,97.8,97.8,97.8,97.8,96.89,96.59,,,22.72,0.43,,FINAL_Multiclass_Results_Table.csv,,,,,,,,Extra Trees,SMOTE,Baseline / prior result
+,Gradient Boosting,Original,74.69,75.04,74.69,71.19,63.21,63.28,,,44.77,0.14,,FINAL_Multiclass_Results_Table.csv,,,,,,,,Gradient Boosting,Original,Baseline / prior result
+,Gradient Boosting,SMOTE,59.9,73.37,59.9,61.92,51.93,65.88,,,313.66,0.26,,FINAL_Multiclass_Results_Table.csv,,,,,,,,Gradient Boosting,SMOTE,Baseline / prior result
+,HistGradientBoosting,Original,91.53,90.33,91.53,90.25,88.11,84.08,,,15.15,1.18,,FINAL_Multiclass_Results_Table.csv,,,,,,,,HistGradientBoosting,Original,Baseline / prior result
+,XGBoost,Original,91.39,90.2,91.39,89.96,87.91,83.47,,,113.94,0.54,,FINAL_Multiclass_Results_Table.csv,,,,,,,,XGBoost,Original,Baseline / prior result
+,XGBoost,SMOTE,90.49,89.92,90.49,90.11,86.58,85.02,,,124.98,0.37,,FINAL_Multiclass_Results_Table.csv,,,,,,,,XGBoost,SMOTE,Baseline / prior result
+,LightGBM,Original,91.38,90.23,91.38,89.98,87.9,83.77,,,226.78,1.52,,FINAL_Multiclass_Results_Table.csv,,,,,,,,LightGBM,Original,Baseline / prior result
+,LightGBM,SMOTE,90.62,90.08,90.62,90.27,86.78,85.6,,,8.47,0.36,,FINAL_Multiclass_Results_Table.csv,,,,,,,,LightGBM,SMOTE,Baseline / prior result
+,CatBoost,Original,90.35,88.95,90.35,88.46,86.48,81.52,,,15.87,0.06,,FINAL_Multiclass_Results_Table.csv,,,,,,,,CatBoost,Original,Baseline / prior result
+,CatBoost,SMOTE,89.06,87.83,89.06,87.89,84.63,82.47,,,31.48,0.07,,FINAL_Multiclass_Results_Table.csv,,,,,,,,CatBoost,SMOTE,Baseline / prior result
+,OvR Random Forest,Original,97.76,97.73,97.76,97.73,96.83,96.2,,,65.4,1.35,,FINAL_Multiclass_Results_Table.csv,,,,,,,,OvR Random Forest,Original,Baseline / prior result
+,OvR Random Forest,SMOTE,97.73,97.73,97.73,97.73,96.8,96.48,,,164.67,2.6,,FINAL_Multiclass_Results_Table.csv,,,,,,,,OvR Random Forest,SMOTE,Baseline / prior result
+,OvO KNN,Original,96.97,96.88,96.97,96.9,95.72,94.44,,,9.6,313.27,,FINAL_Multiclass_Results_Table.csv,,,,,,,,OvO KNN,Original,Baseline / prior result
+,OvO KNN,SMOTE,96.02,96.44,96.02,96.17,94.46,95.56,,,29.2,361.29,,FINAL_Multiclass_Results_Table.csv,,,,,,,,OvO KNN,SMOTE,Baseline / prior result
+,ANN,Original,65.96,68.92,65.96,61.89,49.24,48.78,,,48.51,0.84,,FINAL_Multiclass_Results_Table.csv,,,,,,,,ANN,Original,Baseline / prior result
+,ANN,SMOTE,69.25,71.44,69.25,68.02,56.14,63.34,,,130.97,0.96,,FINAL_Multiclass_Results_Table.csv,,,,,,,,ANN,SMOTE,Baseline / prior result
+,1D CNN,Original,61.76,67.02,61.76,56.35,42.52,43.94,,,87.64,0.97,,FINAL_Multiclass_Results_Table.csv,,,,,,,,1D CNN,Original,Baseline / prior result
+,1D CNN,SMOTE,65.89,69.32,65.89,64.69,51.36,59.31,,,235.73,0.99,,FINAL_Multiclass_Results_Table.csv,,,,,,,,1D CNN,SMOTE,Baseline / prior result
+,SimpleRNN,Original,63.02,67.39,63.02,57.4,44.98,49.17,,,66.27,1.8,,FINAL_Multiclass_Results_Table.csv,,,,,,,,SimpleRNN,Original,Baseline / prior result
+,SimpleRNN,SMOTE,65.44,67.91,65.44,63.43,49.94,58.64,,,189.58,6.5,,FINAL_Multiclass_Results_Table.csv,,,,,,,,SimpleRNN,SMOTE,Baseline / prior result
+,LSTM,Original,63.74,68.72,63.74,58.6,46.22,48.97,,,85.26,1.86,,FINAL_Multiclass_Results_Table.csv,,,,,,,,LSTM,Original,Baseline / prior result
+,LSTM,SMOTE,69.8,70.05,69.8,67.55,55.85,61.39,,,234.64,6.52,,FINAL_Multiclass_Results_Table.csv,,,,,,,,LSTM,SMOTE,Baseline / prior result
+Original baseline,CART,Original,0.9877,0.9877,0.9877,0.9877,0.9827,0.9796,,,2.4677,0.0184,,UPDATED_Classical_ML_Results.csv,,,,,,,,CART,Original,Updated classical result — verify configuration
+Original baseline,CART,SMOTE,0.9793,0.9797,0.9793,0.9794,0.9708,0.9715,,,8.6807,0.0278,,UPDATED_Classical_ML_Results.csv,,,,,,,,CART,SMOTE,Updated classical result — verify configuration
+Original baseline,Random Forest,Original,0.9704,0.97,0.9704,0.9701,0.9581,0.9532,,,14.9327,0.3137,,UPDATED_Classical_ML_Results.csv,,,,,,,,Random Forest,Original,Updated classical result — verify configuration
+Original baseline,Random Forest,SMOTE,0.9679,0.9679,0.9679,0.9679,0.9547,0.9553,,,47.0116,0.3567,,UPDATED_Classical_ML_Results.csv,,,,,,,,Random Forest,SMOTE,Updated classical result — verify configuration
+Original baseline,Bagging,Original,0.9887,0.9886,0.9887,0.9887,0.984,0.9803,,,13.7256,0.2198,,UPDATED_Classical_ML_Results.csv,,,,,,,,Bagging,Original,Updated classical result — verify configuration
+Original baseline,Bagging,SMOTE,0.9812,0.9814,0.9812,0.9813,0.9734,0.9726,,,10.4685,0.3377,,UPDATED_Classical_ML_Results.csv,,,,,,,,Bagging,SMOTE,Updated classical result — verify configuration
+Original baseline,Extra Trees,Original,0.9808,0.9804,0.9808,0.9805,0.9728,0.9648,,,7.2283,0.4325,,UPDATED_Classical_ML_Results.csv,,,,,,,,Extra Trees,Original,Updated classical result — verify configuration
+Original baseline,Extra Trees,SMOTE,0.978,0.978,0.978,0.978,0.9689,0.9659,,,22.7181,0.429,,UPDATED_Classical_ML_Results.csv,,,,,,,,Extra Trees,SMOTE,Updated classical result — verify configuration
+Original baseline,Gradient Boosting,Original,0.7469,0.7504,0.7469,0.7119,0.6321,0.6328,,,44.7746,0.1374,,UPDATED_Classical_ML_Results.csv,,,,,,,,Gradient Boosting,Original,Updated classical result — verify configuration
+Original baseline,Gradient Boosting,SMOTE,0.599,0.7337,0.599,0.6192,0.5193,0.6588,,,313.661,0.2645,,UPDATED_Classical_ML_Results.csv,,,,,,,,Gradient Boosting,SMOTE,Updated classical result — verify configuration
+Original baseline,HistGradientBoosting,Original,0.9153,0.9033,0.9153,0.9025,0.8811,0.8408,,,15.1523,1.1767,,UPDATED_Classical_ML_Results.csv,,,,,,,,HistGradientBoosting,Original,Updated classical result — verify configuration
+Original baseline,XGBoost,Original,0.9139,0.902,0.9139,0.8996,0.8791,0.8347,,,113.9363,0.5385,,UPDATED_Classical_ML_Results.csv,,,,,,,,XGBoost,Original,Updated classical result — verify configuration
+Original baseline,XGBoost,SMOTE,0.9049,0.8992,0.9049,0.9011,0.8658,0.8502,,,124.9847,0.3672,,UPDATED_Classical_ML_Results.csv,,,,,,,,XGBoost,SMOTE,Updated classical result — verify configuration
+Original baseline,LightGBM,Original,0.9138,0.9023,0.9138,0.8998,0.879,0.8377,,,226.7837,1.5188,,UPDATED_Classical_ML_Results.csv,,,,,,,,LightGBM,Original,Updated classical result — verify configuration
+Original baseline,LightGBM,SMOTE,0.9062,0.9008,0.9062,0.9027,0.8678,0.856,,,8.4747,0.3589,,UPDATED_Classical_ML_Results.csv,,,,,,,,LightGBM,SMOTE,Updated classical result — verify configuration
+Original baseline,CatBoost,Original,0.9035,0.8895,0.9035,0.8846,0.8648,0.8152,,,15.8678,0.0629,,UPDATED_Classical_ML_Results.csv,,,,,,,,CatBoost,Original,Updated classical result — verify configuration
+Original baseline,CatBoost,SMOTE,0.8906,0.8783,0.8906,0.8789,0.8463,0.8247,,,31.4825,0.0661,,UPDATED_Classical_ML_Results.csv,,,,,,,,CatBoost,SMOTE,Updated classical result — verify configuration
+Original baseline,OvR Random Forest,Original,0.9776,0.9773,0.9776,0.9773,0.9683,0.962,,,65.4034,1.3501,,UPDATED_Classical_ML_Results.csv,,,,,,,,OvR Random Forest,Original,Updated classical result — verify configuration
+Original baseline,OvR Random Forest,SMOTE,0.9773,0.9773,0.9773,0.9773,0.968,0.9648,,,164.6725,2.5959,,UPDATED_Classical_ML_Results.csv,,,,,,,,OvR Random Forest,SMOTE,Updated classical result — verify configuration
+Original baseline,OvO KNN,Original,0.9697,0.9688,0.9697,0.969,0.9572,0.9444,,,9.6003,313.2704,,UPDATED_Classical_ML_Results.csv,,,,,,,,OvO KNN,Original,Updated classical result — verify configuration
+Original baseline,OvO KNN,SMOTE,0.9602,0.9644,0.9602,0.9617,0.9446,0.9556,,,29.2004,361.2944,,UPDATED_Classical_ML_Results.csv,,,,,,,,OvO KNN,SMOTE,Updated classical result — verify configuration
+"Tuned, latest test evaluation",Extra Trees,SMOTE,0.9808,0.978,0.978,0.9809,0.9729,0.9699,,,84.9519,0.8609,,UPDATED_Classical_ML_Results.csv,,,,,,,,Extra Trees,SMOTE,Updated classical result — verify configuration
+"Tuned, latest test evaluation",Random Forest,SMOTE,0.9691,0.969,0.9691,0.9691,0.9564,0.9565,,,125.6801,0.8987,,UPDATED_Classical_ML_Results.csv,,,,,,,,Random Forest,SMOTE,Updated classical result — verify configuration
+"Tuned, latest test evaluation",Gradient Boosting,SMOTE,0.932,0.9276,0.932,0.9289,0.9039,0.8834,,,839.012,0.6915,,UPDATED_Classical_ML_Results.csv,,,,,,,,Gradient Boosting,SMOTE,Updated classical result — verify configuration
+"Tuned, latest test evaluation",XGBoost,SMOTE,0.9064,0.9025,0.9064,0.9039,0.868,0.8546,,,57.4608,0.4079,,UPDATED_Classical_ML_Results.csv,,,,,,,,XGBoost,SMOTE,Updated classical result — verify configuration
+"Tuned, latest test evaluation",LightGBM,SMOTE,0.9018,0.9015,0.9018,0.9013,0.8621,0.8592,,,38.8174,2.323,,UPDATED_Classical_ML_Results.csv,,,,,,,,LightGBM,SMOTE,Updated classical result — verify configuration
+"Tuned, latest test evaluation",CatBoost,SMOTE,0.9,0.8919,0.9,0.8942,0.8589,0.8403,,,127.9691,0.0704,,UPDATED_Classical_ML_Results.csv,,,,,,,,CatBoost,SMOTE,Updated classical result — verify configuration
+,ANN,Original,0.6596,0.6892,0.6596,0.6189,0.4924,0.4878,0.8533,0.7007,48.5128,0.8412,,Deep_Learning_Results.csv,,,,,,,,ANN,Original,Baseline / prior result
+,ANN,SMOTE,0.6925,0.7144,0.6925,0.6802,0.5614,0.6334,0.886,0.7504,130.9724,0.9642,,Deep_Learning_Results.csv,,,,,,,,ANN,SMOTE,Baseline / prior result
+,1D CNN,Original,0.6176,0.6702,0.6176,0.5635,0.4252,0.4394,0.8154,0.6483,87.642,0.9729,,Deep_Learning_Results.csv,,,,,,,,1D CNN,Original,Baseline / prior result
+,1D CNN,SMOTE,0.6589,0.6932,0.6589,0.6469,0.5136,0.5931,0.888,0.7303,235.7316,0.9874,,Deep_Learning_Results.csv,,,,,,,,1D CNN,SMOTE,Baseline / prior result
+,SimpleRNN,Original,0.6302,0.6739,0.6302,0.574,0.4498,0.4917,0.8205,0.6441,66.2704,1.8048,,Deep_Learning_Results.csv,,,,,,,,SimpleRNN,Original,Baseline / prior result
+,SimpleRNN,SMOTE,0.6544,0.6791,0.6544,0.6343,0.4994,0.5864,0.847,0.693,189.58,6.5049,,Deep_Learning_Results.csv,,,,,,,,SimpleRNN,SMOTE,Baseline / prior result
+,LSTM,Original,0.6374,0.6872,0.6374,0.586,0.4622,0.4897,0.8238,0.6533,85.2592,1.8582,,Deep_Learning_Results.csv,,,,,,,,LSTM,Original,Baseline / prior result
+,LSTM,SMOTE,0.698,0.7005,0.698,0.6755,0.5585,0.6139,0.8796,0.7426,234.64,6.5208,,Deep_Learning_Results.csv,,,,,,,,LSTM,SMOTE,Baseline / prior result
+,ANN,Original,0.6596127061149302,0.6891509884000245,0.6596127061149302,0.6189023185151292,0.4924170183808104,0.487760364113659,0.8532899033549667,0.700671778583762,48.51279780000914,0.8412192999385297,,ANN_Original_vs_SMOTE.csv,,,,,,,,ANN,Original,Baseline / prior result
+,ANN,SMOTE,0.6924787707238172,0.7143500053426702,0.6924787707238172,0.6802392536258761,0.5614449125821577,0.6333518504826167,0.8860072497455557,0.7503559224728957,130.97244939999655,0.9642216000938788,,ANN_Original_vs_SMOTE.csv,,,,,,,,ANN,SMOTE,Baseline / prior result
+,ANN,,0.6495933863503617,,,,0.513843099657056,0.61964716807394,,,,1.0333853000047384,,ann_smote_v2_metrics.csv,,SMOTE_v2_shuffled,0.6661672527457656,0.6495933863503617,0.6397651093592251,262.8949681000085,,ANN,Unspecified,Versioned deep-learning run
+,1D CNN,,0.6905467942669722,,,,0.5778691994266558,0.6640655637593661,,,,1.5001633999927435,,cnn_smote_v2_metrics.csv,,SMOTE_v2_shuffled,0.7114497111517685,0.6905467942669722,0.6937299155351013,284.16314090001106,0.6442576092359602,1D CNN,Unspecified,Versioned deep-learning run
+,SimpleRNN,,0.6311272857977266,,,,0.4667530733884142,0.5780633606238686,,,,1.506501500000013,,rnn_smote_v2_metrics.csv,,SMOTE_v2_shuffled,0.6393388822367898,0.6311272857977266,0.6195076957227196,176.39266599999974,0.5960240330643252,SimpleRNN,Unspecified,Versioned deep-learning run
+,LSTM,,0.6094262479220021,,,,0.4698733420193045,0.6115307050700604,,,,1.6883172000088962,,lstm_smote_v3_metrics.csv,,SMOTE_v3,0.6344652341550019,0.6094262479220021,0.6057254882840591,191.89974860000075,0.5922763029058872,LSTM,Unspecified,Versioned deep-learning run
+,LSTM,,0.5159949678752752,,,,0.4191921185997803,0.6130271707198265,,,,2.2315211999957683,,lstm_smote_v4_metrics.csv,,SMOTE_v4_weighted,0.6811847549414672,0.5159949678752752,0.5400943562404311,573.0382790000003,0.5664820577408287,LSTM,Unspecified,Versioned deep-learning run
+,LSTM,,0.5423686929954621,,,,0.4525589672060816,0.6360335868873856,,,,1.8359872000000903,,lstm_smote_v5_metrics.csv,,SMOTE_v5_moderate_weights,0.6782727844715344,0.5423686929954621,0.5589072222365433,522.6993798999902,0.5909672160581988,LSTM,Unspecified,Versioned deep-learning run

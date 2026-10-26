@@ -1,0 +1,20 @@
+Model,Dataset,Paper_F1,Our_F1,Gap_percentage_points
+Bagging,Original,0.99,0.9887,-0.13
+CART,Original,0.98,0.9877,0.77
+Extra Trees,Original,0.97,0.9805,1.05
+OvR Random Forest,Original,0.97,0.9773,0.73
+Random Forest,Original,0.96,0.9701,1.01
+OvO KNN,Original,0.95,0.969,1.9
+Gradient Boosting,Original,0.86,0.7119,-14.81
+XGBoost,Original,0.85,0.8996,4.96
+LightGBM,Original,0.85,0.8998,4.98
+CatBoost,Original,0.84,0.8846,4.46
+CART,SMOTE,0.99,0.9794,-1.06
+Random Forest,SMOTE,0.99,0.9679,-2.21
+Bagging,SMOTE,0.99,0.9813,-0.87
+Extra Trees,SMOTE,0.99,0.978,-1.2
+OvR Random Forest,SMOTE,0.99,0.9773,-1.27
+OvO KNN,SMOTE,0.99,0.9617,-2.83
+Gradient Boosting,SMOTE,0.93,0.9289,-0.11
+XGBoost,SMOTE,0.89,0.9039,1.39
+LightGBM,SMOTE,0.89,0.9013,1.13
